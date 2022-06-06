@@ -1,0 +1,39 @@
+.main a{
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+a i{
+  font-size: 5rem;
+}
+
+.cont-1{
+  background-color: #D9534F;
+}
+
+.cont-1:hover{
+  background-color: #a83f3b;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cont-2{
+  background-color: #5CB85C;
+}
+
+.cont-2:hover{
+  background-color: #3c793c;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cont-3{
+  background-color: #215C87;
+}
+
+.cont-3:hover{
+  background-color: #0c3049;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+

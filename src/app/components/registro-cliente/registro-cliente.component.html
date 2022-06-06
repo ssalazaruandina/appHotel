@@ -1,0 +1,60 @@
+<app-header></app-header>
+<div class="row">
+  <div class="col-2">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="col-10 mt-4 p-0">
+    <div class="container">
+      <div>
+        <h2>Registrar huésped</h2>
+      </div>
+      <section class="get-in-touch">
+        <form class="contact-form row">
+          <div class="form-field col-lg-12">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nombre</label>
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Apellido paterno</label>
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Apellido materno</label>
+          </div>
+          <div class="form-field col-lg-4">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Documento de identidad</label>
+          </div>
+          <div class="form-field col-lg-4">
+            <select class="form-control selected" aria-label="Default select example">
+              <option selected disabled>Sexo</option>
+              <option value="1">M</option>
+              <option value="2">F</option>
+            </select>
+          </div>
+          <div class="form-field col-lg-4">
+            <div class="input-group">
+              <input class="form-control selected" placeholder="yyyy-mm-dd" name="dp" [(ngModel)]="model" ngbDatepicker
+                #d="ngbDatepicker">
+              <button class="btn btn-outline-secondary selected" (click)="d.toggle()" type="button">
+                <i class="fa-regular fa-calendar"></i>
+              </button>
+            </div>
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Nacionalidad</label>
+          </div>
+          <div class="form-field col-lg-6">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">Correo electronico</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input class="submit-btn" type="submit" value="Submit">
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
